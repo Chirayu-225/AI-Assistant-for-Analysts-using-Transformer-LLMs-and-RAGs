@@ -4,8 +4,8 @@ Analyst Assistant is a fully autonomous, air-gapped, multi-agent AI analytics pl
 
 Unlike standard LLM chatbots that hallucinate math, this platform utilizes a Dual-Engine Architecture. It routes tabular queries to an Agentic Code Execution sandbox for deterministic accuracy, and text queries to a Vector RAG pipeline for semantic reading comprehension.
 
-✨ Key Features
-🧠 Dual-Engine Routing: * Agentic Code Execution (Tabular Data): For CSVs, the LLM acts as a programmer, writing and executing deterministic pandas and matplotlib code to answer queries with 100% mathematical accuracy.
+** ✨ Key Features**
+🧠 Dual-Engine Routing: Agentic Code Execution (Tabular Data): For CSVs, the LLM acts as a programmer, writing and executing deterministic pandas and matplotlib code to answer queries with 100% mathematical accuracy.
 
 Vector RAG (Unstructured Data): For text documents, the system seamlessly switches to a Retrieval-Augmented Generation pipeline for semantic search and context-aware summarization.
 
@@ -19,30 +19,18 @@ Vector RAG (Unstructured Data): For text documents, the system seamlessly switch
 
 🏗️ System Architecture
 The application is heavily modularized to separate the UI, execution, and reasoning logic:
-
-main.py: The core controller and Streamlit UI rendering engine.
-
+main.py: The core controller and Streamlit UI rendering engine
 cleaning.py: The hybrid rule-based and LLM data standardization pipeline.
-
 query_engine.py: The prompt orchestrator and code generation agent (Qwen 2.5 Coder).
-
 sandbox.py: The AST security scanner and isolated Python execution environment.
-
 profiler.py: The statistical engine that maps dataset schemas and calculates mathematical profiles.
-
 rag_engine.py: The vector embedding and semantic search pipeline for unstructured document ingestion.
-
 eval.py: The reasoning agent (Qwen 2.5 Base) for insight generation and strategic drill-down explanations.
 
 🛠️ Technology Stack
 Frontend & State Management: Streamlit
-
 Local LLM Runtime: Ollama
-
 AI Models: * qwen2.5-coder:3b (Code Generation & Math)
-
 qwen2.5:3b (Reasoning, Insights & RAG)
-
 Data Engineering & Computing: Pandas, NumPy
-
 Data Visualization: Matplotlib (styled for dark-mode UI integration)
