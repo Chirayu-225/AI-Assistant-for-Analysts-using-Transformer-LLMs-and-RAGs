@@ -81,6 +81,7 @@ Data Engineering & Computing: Pandas, NumPy
 <img width="1472" height="697" alt="image" src="https://github.com/user-attachments/assets/0b8f3a1c-fca3-4c77-a762-ac02ef3ed13f" />
 
 
+
 3) Auto Analyzing and Insight Generation
 
    
@@ -89,6 +90,7 @@ Data Engineering & Computing: Pandas, NumPy
 <img width="1400" height="703" alt="image" src="https://github.com/user-attachments/assets/496f0197-977c-4d80-81ed-e3c24f6620ad" />
 
 <img width="1379" height="703" alt="image" src="https://github.com/user-attachments/assets/d89b2176-1a81-4229-b69a-947067971544" />
+
 
 
 4) Unstructured Data
