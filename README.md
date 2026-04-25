@@ -5,6 +5,7 @@ Analyst Assistant is a fully autonomous, air-gapped, multi-agent AI analytics pl
 Unlike standard LLM chatbots that hallucinate math, this platform utilizes a Dual-Engine Architecture. It routes tabular queries to an Agentic Code Execution sandbox for deterministic accuracy, and text queries to a Vector RAG pipeline for semantic reading comprehension.
 
 
+
 ✨ **Key Features**
 
 - 🧠 Dual-Engine Routing: Agentic Code Execution (Tabular Data): For CSVs, the LLM acts as a programmer, writing and executing deterministic pandas and matplotlib code to answer queries with 100% mathematical accuracy.
@@ -18,6 +19,7 @@ Unlike standard LLM chatbots that hallucinate math, this platform utilizes a Dua
 - 📈 Proactive Profiling (Tabular RAG): The system computes a structured statistical profile of the data (IQR outliers, Pearson correlations > 0.5, top categoricals) to feed the reasoning model, generating C-suite-level business insights without raw table dumps.
 
 - 💬 Stateful Conversational Memory: A sliding-window memory buffer tracks previous queries and execution results, allowing for natural, context-aware follow-up questions.
+
 
 
 🏗️ **System Architecture**
@@ -40,6 +42,7 @@ The application is heavily modularized to separate the UI, execution, and reason
 
 
 
+
 🛠️ **Technology Stack**
 
 - Frontend & State Management: Streamlit
@@ -49,6 +52,7 @@ The application is heavily modularized to separate the UI, execution, and reason
 - AI Models: * qwen2.5-coder:3b (Code Generation & Math)
 
 - Data Visualization: Matplotlib (styled for dark-mode UI integration)
+
 
 
 
@@ -63,6 +67,7 @@ The application is heavily modularized to separate the UI, execution, and reason
 - Execute: The system will generate the code, scan it for security, run it, and output the mathematical result or auto-render a chart.
 
 - Analyze: Click Generate Insights to get a structured business breakdown of the data, and paste any bullet point into the Drill-Down engine for a deep-dive explanation, Reasoning, Insights
+
 
 
 
