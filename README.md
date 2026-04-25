@@ -4,6 +4,7 @@ Analyst Assistant is a fully autonomous, air-gapped, multi-agent AI analytics pl
 
 Unlike standard LLM chatbots that hallucinate math, this platform utilizes a Dual-Engine Architecture. It routes tabular queries to an Agentic Code Execution sandbox for deterministic accuracy, and text queries to a Vector RAG pipeline for semantic reading comprehension.
 
+
 ✨ **Key Features**
 
 🧠 Dual-Engine Routing: Agentic Code Execution (Tabular Data): For CSVs, the LLM acts as a programmer, writing and executing deterministic pandas and matplotlib code to answer queries with 100% mathematical accuracy.
@@ -17,6 +18,7 @@ Unlike standard LLM chatbots that hallucinate math, this platform utilizes a Dua
 📈 Proactive Profiling (Tabular RAG): The system computes a structured statistical profile of the data (IQR outliers, Pearson correlations > 0.5, top categoricals) to feed the reasoning model, generating C-suite-level business insights without raw table dumps.
 
 💬 Stateful Conversational Memory: A sliding-window memory buffer tracks previous queries and execution results, allowing for natural, context-aware follow-up questions.
+
 
 🏗️ **System Architecture**
 
@@ -67,7 +69,9 @@ qwen2.5:3b (Reasoning, Insights & RAG)
 Data Engineering & Computing: Pandas, NumPy
 
 
+
 💡 **Snapshots of the Project**
+
 
 1) Main UI
 
